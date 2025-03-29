@@ -6,13 +6,7 @@ import SimpleLightbox from "simplelightbox";
 
 import "simplelightbox/dist/simple-lightbox.min.css";
 
-export default defineConfig({
-  build: {
-    rollupOptions: {
-      external: ["axios"]
-    }
-  }
-});
+
 
 
 const form = document.querySelector(".app-form");
